@@ -1,0 +1,22 @@
+﻿@model List<Exam>
+
+<h2>Danh sách kỳ thi</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Khóa học</th>
+            <th>Ngày thi</th>
+            <th>Phòng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var exam in Model)
+        {
+            <tr>
+                <td>@exam.Course?.CourseName</td>
+                <td>@exam.Date.ToShortDateString()</td>
+                <td>@exam.Room</td>
+            </tr>
+        }
+    </tbody>
+</table>

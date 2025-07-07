@@ -1,0 +1,27 @@
+﻿@model List<User>
+
+<h2>Học sinh đã đạt – Cấp chứng chỉ</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên học sinh</th>
+            <th>Email</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.FullName</td>
+                <td>@user.Email</td>
+                <td>
+                    <form asp-action="Issue" method="post">
+                        <input type="hidden" name="userId" value="@user.UserId" />
+                        <button type="submit" class="btn btn-success">Cấp chứng chỉ</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

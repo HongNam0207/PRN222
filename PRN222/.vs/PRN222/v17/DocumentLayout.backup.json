@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|d:\\fpt_7\\prn222\\project\\prn222\\prn222\\prn222\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|solutionrelative:prn222\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|d:\\fpt_7\\prn222\\project\\prn222\\prn222\\prn222\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|solutionrelative:prn222\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|d:\\fpt_7\\prn222\\project\\prn222\\prn222\\prn222\\views\\certificate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|solutionrelative:prn222\\views\\certificate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|d:\\fpt_7\\prn222\\project\\prn222\\prn222\\prn222\\views\\police\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|solutionrelative:prn222\\views\\police\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|d:\\fpt_7\\prn222\\project\\prn222\\prn222\\prn222\\controllers\\certificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|solutionrelative:prn222\\controllers\\certificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|d:\\fpt_7\\prn222\\project\\prn222\\prn222\\prn222\\controllers\\policecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|solutionrelative:prn222\\controllers\\policecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|d:\\fpt_7\\prn222\\project\\prn222\\prn222\\prn222\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A07ED6EE-0331-4036-9B8A-B9CE4A450A11}|PRN222\\PRN222.csproj|solutionrelative:prn222\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PRN222\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PRN222\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T00:41:40.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Views\\Police\\Index.cshtml",
+              "RelativeDocumentMoniker": "PRN222\\Views\\Police\\Index.cshtml",
+              "ToolTip": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Views\\Police\\Index.cshtml",
+              "RelativeToolTip": "PRN222\\Views\\Police\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T00:41:02.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Views\\Certificate\\Index.cshtml",
+              "RelativeDocumentMoniker": "PRN222\\Views\\Certificate\\Index.cshtml",
+              "ToolTip": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Views\\Certificate\\Index.cshtml",
+              "RelativeToolTip": "PRN222\\Views\\Certificate\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T00:40:47.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "PRN222\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "PRN222\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T00:36:31.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "PRN222\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "PRN222\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T00:35:06.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CertificateController.cs",
+              "DocumentMoniker": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Controllers\\CertificateController.cs",
+              "RelativeDocumentMoniker": "PRN222\\Controllers\\CertificateController.cs",
+              "ToolTip": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Controllers\\CertificateController.cs",
+              "RelativeToolTip": "PRN222\\Controllers\\CertificateController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAD4vycAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T00:34:47.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PoliceController.cs",
+              "DocumentMoniker": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Controllers\\PoliceController.cs",
+              "RelativeDocumentMoniker": "PRN222\\Controllers\\PoliceController.cs",
+              "ToolTip": "D:\\FPT_7\\PRN222\\Project\\PRN222\\PRN222\\PRN222\\Controllers\\PoliceController.cs",
+              "RelativeToolTip": "PRN222\\Controllers\\PoliceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T00:34:24.432Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
