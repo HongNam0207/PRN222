@@ -1,3 +1,4 @@
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using PRN222.Models;
 
 namespace PRN222
@@ -10,6 +11,17 @@ namespace PRN222
 
             // Add services to the container.
             builder.Services.AddSession();
+
+            // Add Authentication with Cookie
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/Account/Login";
+                    options.LogoutPath = "/Account/Logout";
+                    options.AccessDeniedPath = "/Account/AccessDenied";
+                    options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+                });
+
             builder.Services.AddControllersWithViews();
 
             // DB
@@ -22,15 +34,18 @@ namespace PRN222
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
             app.UseSession();
+
             app.UseRouting();
 
+            // 👇 Quan trọng: phải gọi Authentication trước Authorization
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

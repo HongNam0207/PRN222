@@ -16,3 +16,21 @@ publish/
 # Bỏ file appsettings chứa thông tin nhạy cảm
 appsettings.json
 appsettings.*.json
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+
+# Other
+*.cache
+*.dll
+*.exe
+*.pdb
+*.db
+*.vsidx
