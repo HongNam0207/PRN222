@@ -1,12 +1,20 @@
-﻿@model List<User>
+﻿@model List<PRN222.Models.User>
 
-<h2>Quản lý người dùng</h2>
-<table class="table">
-    <thead>
+@{
+    ViewData["Title"] = "Quản lý người dùng";
+}
+
+<h2 class="mb-4 text-primary">Quản lý người dùng</h2>
+
+<table class="table table-bordered table-hover shadow">
+    <thead class="table-light">
         <tr>
             <th>Họ tên</th>
             <th>Email</th>
             <th>Vai trò</th>
+            <th>Lớp</th>
+            <th>Trường</th>
+            <th>SĐT</th>
         </tr>
     </thead>
     <tbody>
@@ -16,6 +24,9 @@
                 <td>@user.FullName</td>
                 <td>@user.Email</td>
                 <td>@user.Role</td>
+                <td>@user.Class</td>
+                <td>@user.School</td>
+                <td>@user.Phone</td>
             </tr>
         }
     </tbody>

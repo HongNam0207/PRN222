@@ -87,3 +87,17 @@ CREATE TABLE Notifications (
     FOREIGN KEY (UserID) REFERENCES Users(UserID)
 );
 GO
+
+ALTER TABLE Users
+ADD CONSTRAINT CK_Users_Role CHECK (Role IN ('Student', 'Teacher', 'TrafficPolice', 'Admin'));
+
+INSERT INTO Users (FullName, Email, Password, Role, Class, School, Phone)
+VALUES (
+    N'Nguyen Van Quan Tri',
+    'admin1@example.com',
+    'admin123',
+    'Admin',
+    NULL,
+    NULL,
+    '0999999999'
+);
