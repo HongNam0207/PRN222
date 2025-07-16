@@ -45,7 +45,7 @@ public class AccountController : Controller
             switch (user.Role)
             {
                 case "Student":
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Student");
                 case "Teacher":
                     return RedirectToAction("Index", "Teacher");
                 case "TrafficPolice":

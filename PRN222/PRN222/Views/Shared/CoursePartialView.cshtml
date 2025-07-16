@@ -1,0 +1,15 @@
+﻿@model PRN222.Models.Course
+
+<div class="card h-100 shadow-sm">
+    <div class="card-body">
+        <h5 class="card-title text-primary">@Model.CourseName</h5>
+        <p class="card-text">
+            <strong>Giáo viên:</strong> @Model.Teacher?.FullName <br />
+            <strong>Bắt đầu:</strong> @Model.StartDate.ToString("dd/MM/yyyy") <br />
+            <strong>Kết thúc:</strong> @Model.EndDate.ToString("dd/MM/yyyy")
+        </p>
+    </div>
+    <div class="card-footer text-end">
+        <a asp-controller="Course" asp-action="Details" asp-route-id="@Model.CourseId" class="btn btn-outline-primary btn-sm">Chi tiết</a>
+    </div>
+</div>
