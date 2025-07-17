@@ -1,36 +1,47 @@
-﻿# Bỏ các thư mục build
+﻿
+# 1. Build outputs
+
 bin/
 obj/
-
-# Bỏ file cấu hình người dùng Visual Studio
-*.user
-*.suo
-
-# Bỏ thư mục xuất bản
-publish/
-
-# Bỏ file tạm và log
-*.log
-*.tmp
-
-# Bỏ file appsettings chứa thông tin nhạy cảm
-appsettings.json
-appsettings.*.json
-# Visual Studio
-.vs/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Build output
-bin/
-obj/
-
-# Other
-*.cache
 *.dll
 *.exe
 *.pdb
-*.db
+*.cache
 *.vsidx
+
+
+# 2. Publish folders
+
+publish/
+
+
+# 3. User-specific files (Visual Studio)
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+
+# 4. Visual Studio / VS Code folders
+
+.vs/
+.vscode/
+
+
+# 5. Logs, temp files
+
+*.log
+*.tmp
+
+
+# 6. App settings (nhạy cảm)
+
+appsettings.json
+appsettings.*.json
+
+
+# 7. OS & IDE junk
+
+.DS_Store
+Thumbs.db
