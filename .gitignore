@@ -37,8 +37,8 @@ publish/
 
 # 6. App settings (nhạy cảm)
 
-appsettings.json
-appsettings.*.json
+# appsettings.json
+# appsettings.*.json
 
 
 # 7. OS & IDE junk
